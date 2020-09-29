@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Shrikhand&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Oh my food !: Bastille</title>
+</head>
+<body>
+	<header class="header">
+		<a class="header__link" href="index.html"><i class="fas fa-arrow-left"></i></a>
+		<img class="header__logo" src="public/img/logo/logo.svg" alt="logo" />
+	</header>
+	<section class="hero hero--bastille"><!-- faire une map background-hero CHANGER LE MODIFICATEUR-->
+		<div class="hero-container">
+			<div class="hero-title">
+				<h1 class="hero-container__title">Bastille</h1>
+				<ul class="icon-fill-hover">
+					<li class="icon-fill-hover__item">
+					    <a href="">
+					    	<i class="fa fa-heart-o" aria-hidden="true"></i>
+					    </a>
+					</li>
+				</ul>plat__choix plat__choix--3
+			</div>
+		</div>
+	</section>
+	<section class="menu">
+		<form class="menu-form" action="" method="post">
+			<fieldset class="menu-form__entree">
+				<legend>Entrées</legend>
+					<hr />
+					<label class="entree__choix entree__choix--1" for="entree1"><!-- faire une map border-radius ?-->
+						<p class="menu-title"><strong>Citrus Squid Carpaccio</strong><br />With orange zest</p>
+						<p class="price"><strong>25€</strong></p>
+						<input type="radio" name="entree" value="entree1" id="entree1" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div>  
+					</label>
+					<label class="entree__choix entree__choix--2" for="entree2">
+						<p class="menu-title"><strong>Grandmother's Vegetable Soup</strong><br />Carrots, parsnips, Jerusalem artichoke</p>
+						<p class="price"><strong>35€</strong></p>
+						<input type="radio" name="entree" value="entree2" id="entree2" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div> 
+					</label>
+					<label class="entree__choix entree__choix--3" for="entree3">
+						<p class="menu-title"><strong>Onion Soup</strong><br />Revisited</p>
+						<p class="price"><strong>20€</strong></p>
+						<input type="radio" name="entree" value="entree3" id="entree3" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div> 
+					</label>
+			</fieldset>
+			<fieldset class="menu-form__plat">
+				<legend>Main Dish</legend>
+					<hr />
+					<label class="plat__choix plat__choix--1" for="plat1">
+						<p class="menu-title"><strong>Scallops</strong><br />With mashed parsnip</p>
+						<p class="price"><strong>40€</strong></p>	
+						<input type="radio" name="plat" value="plat1" id="plat1" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div> 
+					</label>
+					<label class="plat__choix plat__choix--2" for="plat2">
+						<p class="menu-title"><strong>Magret de canard</strong><br />With mashed potatoes</p>
+						<p class="price"><strong>35€</strong></p>
+						<input type="radio" name="plat" value="plat2" id="plat2" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div>  
+					</label>
+					<label class="plat__choix plat__choix--3" for="plat3">
+						<p class="menu-title"><strong>Game Hen</strong><br />With vegetable gnocchis</p>
+						<p class="price"><strong>44€</strong></p>
+						<input type="radio" name="plat" value="plat3" id="plat3" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div>  
+					</label>
+			</fieldset>
+			<fieldset class="menu-form__dessert">
+				<legend>Desserts</legend>
+					<hr />
+					<label class="dessert__choix dessert__choix--1" for="dessert1">
+						<p class="menu-title"><strong>Floral Ice Cream</strong><br />With hazelnut butter</p>
+						<p class="price"><strong>18€</strong></p>
+						<input type="radio" name="entree" value="dessert1" id="dessert1" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div> 
+					</label>
+					<label class="dessert__choix dessert__choix--2" for="dessert2">
+						<p class="menu-title"><strong>Chocolate Lava Cake</strong><br />Revisited</p>
+						<p class="price"><strong>22€</strong></p>
+						<input type="radio" name="entree" value="dessert2" id="dessert2" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div> 
+					</label>
+					<label class="dessert__choix dessert__choix--3" for="dessert3">
+						<p class="menu-title"><strong>Napolean</strong><br />With blueberries and marzipan</p>
+						<p class="price"><strong>23€</strong></p>
+						<input type="radio" name="dessert" value="dessert3" id="dessert3" />
+						<div class="checkmark">
+              				<i class="fas fa-check-circle"></i>
+            			</div> 
+					</label> 
+			</fieldset>	
+			<input class="btn" type="submit" value="Order"/> 	
+		</form>	
+	</section>
+	<footer class="footer">
+		<h1 class="footer__heading">ohmyfood</h1>
+		<ul class="footer-nav">
+			<li class="footer-nav__link"><a href=""><i class="fas fa-utensils"></i>Suggest a restaurant</a></li>
+			<li class="footer-nav__link"><a href=""><i class="fas fa-hands-helping"></i>Become a partner</a></li>
+			<li class="footer-nav__link"><a href="">Legal</a></li>
+			<li class="footer-nav__link"><a href="mailto:name@domain.com">Contact</a></li>
+		</ul>
+	</footer>
+</body>
+</html>

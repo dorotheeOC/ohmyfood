@@ -1,0 +1,606 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 1.8rem;
+}
+
+h1 {
+  font-family: "Shrikhand", cursive;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.2rem;
+}
+
+.loc-container__city {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+}
+
+.manual-list {
+  font-weight: 400;
+}
+
+.btn {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.footer a {
+  color: #fff;
+}
+
+legend {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  color: #333333;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+}
+
+strong {
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.icon-list {
+  color: grey;
+  font-size: 2rem;
+}
+
+.icon-fav {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.restaurant-prev-img__badge {
+  font-family: "Roboto", sans-serif;
+  color: #2c9c81;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+}
+
+.loader-container .paragraph {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2rem;
+}
+
+body {
+  background-color: #fff;
+}
+
+.loc {
+  background-color: #d9d9d9;
+}
+
+.hero-home, .restaurant {
+  background-color: #f2f2f2;
+}
+
+footer {
+  background-color: #333333;
+}
+
+.hero-container {
+  background-color: #f2f2f2;
+}
+
+.menu {
+  background-color: #f2f2f2;
+}
+
+body {
+  margin: 0;
+}
+
+.loc, h1, footer {
+  padding: 1rem;
+  margin: 0;
+}
+
+.loc-container > * {
+  padding: 1rem;
+  margin: 0;
+}
+
+section {
+  padding: 4rem 2rem;
+}
+
+h1, h2, h3, p, header {
+  padding: 1rem;
+}
+
+footer ul {
+  padding: 0 1rem;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-image: linear-gradient(-15deg, #9356DC, #ff79DA);
+  border-radius: 3rem;
+  border: none;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0.2rem 0.2rem 0.5rem #e6e6e6;
+}
+
+.btn:hover {
+  box-shadow: 0.2rem 0.2rem 1rem #333333;
+  background-image: linear-gradient(-15deg, #9e67e0, #ff8de0);
+}
+
+.icon-fill-hover {
+  position: relative;
+  padding: 0;
+}
+.icon-fill-hover .icon-fill-hover__item {
+  position: relative;
+  list-style: none;
+  cursor: pointer;
+}
+.icon-fill-hover .icon-fill-hover__item a {
+  text-decoration: none;
+}
+.icon-fill-hover .icon-fill-hover__item a .fa {
+  font-size: 2rem;
+  color: black;
+  z-index: 0;
+  position: relative;
+}
+
+.icon-fill-hover .icon-fill-hover__item::before {
+  font-family: fontAwesome;
+  position: absolute;
+  top: 0.1rem;
+  left: 0rem;
+  z-index: 1;
+  height: 0;
+  font-size: 2rem;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  content: "";
+  background-image: linear-gradient(-15deg, #9356DC, #ff79DA);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-fill-hover .icon-fill-hover__item:hover::before {
+  height: 100%;
+}
+
+.hero {
+  padding: 4rem 0 0;
+}
+
+.hero-home {
+  padding: 2rem 0 5rem;
+}
+
+.hero-container {
+  border-radius: 4rem 4rem 0 0;
+}
+.hero-container__title {
+  color: #000;
+  padding: 2rem;
+}
+.hero-container > .hero-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16rem;
+  position: relative;
+}
+.hero-container i {
+  margin-right: 3rem;
+}
+
+.hero--thefullpalette,
+.restaurant-prev-img--thefullpalette {
+  background: url("../public/img/restaurants/fullpalette.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.hero--theenchantedplate,
+.restaurant-prev-img--theenchantedplate {
+  background: url("../public/img/restaurants/enchantedplate.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.hero--bastille,
+.restaurant-prev-img--bastille {
+  background: url("../public/img/restaurants/bastille.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.hero--legourmand,
+.restaurant-prev-img--legourmand {
+  background: url("../public/img/restaurants/gourmand.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0.1rem 0.1rem 1rem #333333;
+}
+.header a {
+  position: absolute;
+  left: 3rem;
+  color: black;
+}
+
+fieldset {
+  border: none;
+}
+fieldset legend {
+  margin-top: 2rem;
+}
+
+input[type=submit] {
+  width: 15rem;
+  margin: 2rem auto;
+  display: block;
+}
+
+input[type=radio] {
+  opacity: 0;
+  margin: 0;
+}
+
+label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  height: 59px;
+  margin: 1rem 0 0;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0.2rem 0.2rem 0.5rem #e6e6e6;
+  position: relative;
+  overflow: hidden;
+}
+label > p {
+  margin: 0;
+  font-weight: 100;
+}
+label:hover > .checkmark {
+  transform: translateX(0);
+  transition: 500ms linear;
+}
+label:hover > .checkmark > .fas {
+  transform: rotate(1turn);
+  transition: 500ms 100ms;
+}
+label:hover .price {
+  transform: translateX(-5rem);
+  transition: 500ms linear;
+  display: block;
+}
+
+.checkmark {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0 1.5rem 1.5rem 0;
+  background-color: #99e2d0;
+  color: #fff;
+  height: 59px;
+  width: 5rem;
+  transform: translateX(5rem);
+}
+.checkmark .fas {
+  padding: 2.4rem 1.8rem;
+}
+
+.menu-title {
+  width: 90%;
+  overflow: hidden;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+form .entree__choix {
+  animation: appear 1000ms backwards;
+}
+form .entree__choix--1 {
+  animation-delay: 250ms;
+}
+form .entree__choix--2 {
+  animation-delay: 500ms;
+}
+form .entree__choix--3 {
+  animation-delay: 750ms;
+}
+form .entree__choix--4 {
+  animation-delay: 1000ms;
+}
+
+form .plat__choix {
+  animation: appear 1000ms backwards;
+}
+form .plat__choix--1 {
+  animation-delay: 250ms;
+}
+form .plat__choix--2 {
+  animation-delay: 500ms;
+}
+form .plat__choix--3 {
+  animation-delay: 750ms;
+}
+form .plat__choix--4 {
+  animation-delay: 1000ms;
+}
+
+form .dessert__choix {
+  animation: appear 1000ms backwards;
+}
+form .dessert__choix--1 {
+  animation-delay: 250ms;
+}
+form .dessert__choix--2 {
+  animation-delay: 500ms;
+}
+form .dessert__choix--3 {
+  animation-delay: 750ms;
+}
+form .dessert__choix--4 {
+  animation-delay: 1000ms;
+}
+
+footer i {
+  margin-right: 1rem;
+  width: 1.5rem;
+}
+
+footer ul, footer li {
+  margin-top: 1rem;
+}
+
+.header, .hero-home, .loc {
+  text-align: center;
+}
+
+.manual-list {
+  list-style: none;
+  padding: 0;
+}
+.manual-list__item {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 2rem;
+  margin: 2rem 1rem;
+  position: relative;
+  border-radius: 2.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #e6e6e6;
+}
+.manual-list__item > .list-style {
+  background-color: #9356DC;
+  color: #fff;
+  border-radius: 3rem;
+  width: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  left: -1.5rem;
+}
+.manual-list__item > i {
+  margin: 1rem;
+}
+.manual-list__item:nth-child(3) {
+  background-color: #e4d5f6;
+}
+.manual-list__item:nth-child(3) i {
+  color: #9356DC;
+}
+
+.loc-icon {
+  margin-right: 1rem;
+}
+
+.restaurant-prev {
+  border-radius: 3rem;
+  box-shadow: 0.2rem 0.2rem 0.5rem #e6e6e6;
+  background-color: #fff;
+  margin: 1rem;
+}
+.restaurant-prev-img {
+  height: 18rem;
+  border-radius: 2rem 2rem 0 0;
+}
+.restaurant-prev-desc {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.restaurant-prev .restaurant-prev-desc-txt__title {
+  margin: 0.5rem;
+  padding: 0;
+}
+.restaurant-prev .restaurant-prev-desc-txt__city {
+  margin: 0.5rem;
+  padding: 0;
+}
+.restaurant-prev-img__badge {
+  float: right;
+  background-color: #99e2d0;
+  padding: 1rem 3rem;
+  margin: 2rem;
+  border-radius: 0.25rem;
+}
+
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes loader-container {
+  0% {
+    background: #9356DC;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+.lds-spinner {
+  position: relative;
+  width: 100px;
+  margin: auto;
+  padding: 40vh 14rem 4rem;
+}
+
+.lds-spinner .bar {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1200ms linear reverse infinite;
+}
+.lds-spinner .bar--1 {
+  animation-delay: 100ms;
+  transform: rotate(30deg);
+}
+.lds-spinner .bar--2 {
+  animation-delay: 200ms;
+  transform: rotate(60deg);
+}
+.lds-spinner .bar--3 {
+  animation-delay: 300ms;
+  transform: rotate(90deg);
+}
+.lds-spinner .bar--4 {
+  animation-delay: 400ms;
+  transform: rotate(120deg);
+}
+.lds-spinner .bar--5 {
+  animation-delay: 500ms;
+  transform: rotate(150deg);
+}
+.lds-spinner .bar--6 {
+  animation-delay: 600ms;
+  transform: rotate(180deg);
+}
+.lds-spinner .bar--7 {
+  animation-delay: 700ms;
+  transform: rotate(210deg);
+}
+.lds-spinner .bar--8 {
+  animation-delay: 800ms;
+  transform: rotate(240deg);
+}
+.lds-spinner .bar--9 {
+  animation-delay: 900ms;
+  transform: rotate(270deg);
+}
+.lds-spinner .bar--10 {
+  animation-delay: 1000ms;
+  transform: rotate(300deg);
+}
+.lds-spinner .bar--11 {
+  animation-delay: 1100ms;
+  transform: rotate(330deg);
+}
+.lds-spinner .bar--12 {
+  animation-delay: 1200ms;
+  transform: rotate(360deg);
+}
+
+.loader-container {
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+  background-color: #9356DC;
+  height: 100vh;
+  animation: loader-container 500ms 2400ms forwards;
+}
+.loader-container .paragraph {
+  width: 18rem;
+  margin: 5rem auto;
+}
+
+.lds-spinner .bar:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 2rem;
+  background: #fff;
+}
+
+.menu {
+  padding: 2rem 1rem;
+}
+.menu hr {
+  border: 0.2rem #99e2d0 solid;
+  width: 10%;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

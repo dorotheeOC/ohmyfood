@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Shrikhand&display=swap" rel="stylesheet"> 
+ 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Oh my food !</title>
+</head>
+<body>
+	<div class="loader-container">
+ 		<div class="lds-spinner">
+		   <div class="bar bar--1"></div>
+		   <div class="bar bar--2"></div>
+		   <div class="bar bar--3"></div>
+		   <div class="bar bar--4"></div>
+		   <div class="bar bar--5"></div>
+		   <div class="bar bar--6"></div>
+		   <div class="bar bar--7"></div>
+		   <div class="bar bar--8"></div>
+		   <div class="bar bar--9"></div>
+		   <div class="bar bar--10"></div>
+		   <div class="bar bar--11"></div>
+		   <div class="bar bar--12"></div>     
+    	</div>
+    	<div class="paragraph">
+     		<p>Chargement en cours...</p>
+     	</div>
+    </div>
+	<header class="header">
+		<img class="header__logo" src="public/img/logo/logo.svg" alt="logo" />
+	</header>
+	<section class="loc">
+		<div class="loc-container">
+			<p class="loc-container__city"><i class="fas fa-map-marker-alt loc-icon"></i>Paris, Belleville</p>
+		</div>
+	</section>
+	<section class="hero-home">
+		<h2 class="hero__heading">Book the menu you like</h2>
+		<p class="hero__paragraph">Discover top-of-the-art restaurants we picked for you</p>
+		<a href="#restaurant">
+			<button class="btn">Explore our restaurants</button>
+		</a>
+	</section>
+	<section class="manual">
+		<h2 class="manual__heading">How it works</h2>
+		<ol class="manual-list">
+			<li class="manual-list__item">
+				<div class="list-style">1</div>
+				<i class="fas fa-mobile-alt icon-list"></i>Choose a restaurant
+			</li>
+			<li class="manual-list__item">
+				<div class="list-style">2</div>
+				<i class="fas fa-bars icon-list"></i>Create your menu
+			</li>
+			<li class="manual-list__item">
+				<div class="list-style">3</div>
+				<i class="fas fa-store icon-list"></i>Go enjoy it at the restaurant
+			</li>
+		</ol>
+	</section>
+	<section id="restaurant">
+		<h2 class="restaurant__heading">Restautants</h2>
+		<div class="restaurant-grid">
+			<ul class="icon-fill-hover">
+				<div class="restaurant-prev">
+					<a href="fullpalette.html">
+						<div class="restaurant-prev-img restaurant-prev-img--thefullpalette">
+							<p class="restaurant-prev-img__badge">New</p>
+						</div>
+					</a>
+					<div class="restaurant-prev-desc">
+						<div class="restaurant-prev-desc-txt">
+							<h3 class="restaurant-prev-desc-txt__title">The full Palette</h3>
+							<p class="restaurant-prev-desc-txt__city">New York</p>
+						</div>
+						<li class="icon-fill-hover__item">
+					      <a href="">
+					        <i class="fa fa-heart-o" aria-hidden="true"></i>
+					      </a>
+					    </li>
+					</div>
+				</div>
+				<div class="restaurant-prev">
+					<a href="enchantedplate.html">
+						<div class="restaurant-prev-img restaurant-prev-img--theenchantedplate">
+							<p class="restaurant-prev-img__badge">New</p>
+						</div>
+					</a>
+					<div class="restaurant-prev-desc">
+						<div class="restaurant-prev-desc-txt">
+							<h3 class="restaurant-prev-desc-txt__title">The Enchanted Plate</h3>
+							<p class="restaurant-prev-desc-txt__city">New York</p>
+						</div>
+						<li class="icon-fill-hover__item">
+					      <a href="">
+					        <i class="fa fa-heart-o" aria-hidden="true"></i>
+					      </a>
+					    </li>
+					</div>
+				</div>
+				<div class="restaurant-prev">
+					<a href="bastille.html">
+						<div class="restaurant-prev-img restaurant-prev-img--bastille">
+							<p class="restaurant-prev-img__badge">New</p>
+						</div>
+					</a>
+					<div class="restaurant-prev-desc">
+						<div class="restaurant-prev-desc-txt">
+							<h3 class="restaurant-prev-desc-txt__title">Bastille</h3>
+							<p class="restaurant-prev-desc-txt__city">New York</p>
+						</div>
+						<li class="icon-fill-hover__item">
+					      <a href="">
+					        <i class="fa fa-heart-o" aria-hidden="true"></i>
+					      </a>
+					    </li>
+					</div>
+				</div>
+				<div class="restaurant-prev">
+					<a href="gourmand.html">
+						<div class="restaurant-prev-img restaurant-prev-img--legourmand">
+							<p class="restaurant-prev-img__badge">New</p>
+						</div>
+					</a>
+					<div class="restaurant-prev-desc">
+						<div class="restaurant-prev-desc-txt">
+							<h3 class="restaurant-prev-desc-txt__title">Le Gourmand</h3>
+							<p class="restaurant-prev-desc-txt__city">New York</p>
+						</div>
+						<li class="icon-fill-hover__item">
+					      <a href="">
+					        <i class="fa fa-heart-o" aria-hidden="true"></i>
+					      </a>
+					    </li>
+					</div>
+				</div>
+			</ul>
+		</div>		
+	</section>
+	<footer class="footer">
+		<h1 class="footer__heading">ohmyfood</h1>
+		<ul class="footer-nav">
+			<li class="footer-nav__link"><a href=""><i class="fas fa-utensils"></i>Suggest a restaurant</a></li>
+			<li class="footer-nav__link"><a href=""><i class="fas fa-hands-helping"></i>Become a partner</a></li>
+			<li class="footer-nav__link"><a href="">Legal</a></li>
+			<li class="footer-nav__link"><a href="mailto:name@domain.com">Contact</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
