@@ -511,7 +511,7 @@ footer ul, footer li {
 }
 .lds-spinner {
   position: relative;
-  width: 100px;
+  width: 8rem;
   margin: auto;
   padding: 40vh 14rem 4rem;
 }
